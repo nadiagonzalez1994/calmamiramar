@@ -1,0 +1,63 @@
+/* ===================================== */
+/* ESTILOS DE CALMA MIRAMAR (HOME) */
+/* ===================================== */
+
+/* Reset para quitar los márgenes del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo de la página */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para los títulos principales */
+h1 {
+    color: darkblue;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* -------------------------------------- */
+/* LAYOUT: HEADER (LOGO Y MENÚ) */
+/* -------------------------------------- */
+header {
+    background-color: #ffffff;
+    padding: 10px 25px; /* Pequeño ajuste para que se vea más manual */
+    
+    /* Configuración para poner los elementos en línea (responsive desktop) */
+    display: flex; 
+    justify-content: space-between; /* Espacio entre el logo y el menú */
+    align-items: center; 
+}
+
+/* Estilo para la lista del menú (NAV) */
+nav ul {
+    list-style: none; /* Quitamos los puntos de la lista */
+    display: flex; /* Ponemos los enlaces lado a lado */
+    gap: 1rem; /* Usamos 'rem' aquí para variar */
+}
+
+/* -------------------------------------- */
+/* LAYOUT: FOOTER (PIE DE PÁGINA */
+/* -------------------------------------- */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1.5rem; /* Usamos 'rem' aquí para variar */
+    text-align: center;
+}
+
+footer h3 {
+    color: #eee;
+    margin-bottom: 5px;
+}
+
+/* Reglas básicas para contenido ervicios */
+ul {
+    list-style: none;
+}
